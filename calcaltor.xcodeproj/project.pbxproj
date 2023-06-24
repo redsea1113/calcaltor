@@ -1,0 +1,617 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9C38D8862A2FAD1E00077061 /* calcaltorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C38D8852A2FAD1E00077061 /* calcaltorApp.swift */; };
+		9C38D8882A2FAD1E00077061 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C38D8872A2FAD1E00077061 /* ContentView.swift */; };
+		9C38D88A2A2FAD2100077061 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C38D8892A2FAD2100077061 /* Assets.xcassets */; };
+		9C38D88E2A2FAD2100077061 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C38D88D2A2FAD2100077061 /* Preview Assets.xcassets */; };
+		9C38D8982A2FAD2200077061 /* calcaltorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C38D8972A2FAD2200077061 /* calcaltorTests.swift */; };
+		9C38D8A22A2FAD2200077061 /* calcaltorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C38D8A12A2FAD2200077061 /* calcaltorUITests.swift */; };
+		9C38D8A42A2FAD2200077061 /* calcaltorUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C38D8A32A2FAD2200077061 /* calcaltorUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9C38D8942A2FAD2200077061 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9C38D87A2A2FAD1D00077061 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9C38D8812A2FAD1E00077061;
+			remoteInfo = calcaltor;
+		};
+		9C38D89E2A2FAD2200077061 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9C38D87A2A2FAD1D00077061 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9C38D8812A2FAD1E00077061;
+			remoteInfo = calcaltor;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9C38D8822A2FAD1E00077061 /* calcaltor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = calcaltor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C38D8852A2FAD1E00077061 /* calcaltorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = calcaltorApp.swift; sourceTree = "<group>"; };
+		9C38D8872A2FAD1E00077061 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		9C38D8892A2FAD2100077061 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9C38D88B2A2FAD2100077061 /* calcaltor.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = calcaltor.entitlements; sourceTree = "<group>"; };
+		9C38D88D2A2FAD2100077061 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9C38D8932A2FAD2200077061 /* calcaltorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = calcaltorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C38D8972A2FAD2200077061 /* calcaltorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = calcaltorTests.swift; sourceTree = "<group>"; };
+		9C38D89D2A2FAD2200077061 /* calcaltorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = calcaltorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C38D8A12A2FAD2200077061 /* calcaltorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = calcaltorUITests.swift; sourceTree = "<group>"; };
+		9C38D8A32A2FAD2200077061 /* calcaltorUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = calcaltorUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9C38D87F2A2FAD1E00077061 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C38D8902A2FAD2200077061 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C38D89A2A2FAD2200077061 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9C38D8792A2FAD1D00077061 = {
+			isa = PBXGroup;
+			children = (
+				9C38D8842A2FAD1E00077061 /* calcaltor */,
+				9C38D8962A2FAD2200077061 /* calcaltorTests */,
+				9C38D8A02A2FAD2200077061 /* calcaltorUITests */,
+				9C38D8832A2FAD1E00077061 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9C38D8832A2FAD1E00077061 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9C38D8822A2FAD1E00077061 /* calcaltor.app */,
+				9C38D8932A2FAD2200077061 /* calcaltorTests.xctest */,
+				9C38D89D2A2FAD2200077061 /* calcaltorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9C38D8842A2FAD1E00077061 /* calcaltor */ = {
+			isa = PBXGroup;
+			children = (
+				9C38D8852A2FAD1E00077061 /* calcaltorApp.swift */,
+				9C38D8872A2FAD1E00077061 /* ContentView.swift */,
+				9C38D8892A2FAD2100077061 /* Assets.xcassets */,
+				9C38D88B2A2FAD2100077061 /* calcaltor.entitlements */,
+				9C38D88C2A2FAD2100077061 /* Preview Content */,
+			);
+			path = calcaltor;
+			sourceTree = "<group>";
+		};
+		9C38D88C2A2FAD2100077061 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				9C38D88D2A2FAD2100077061 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9C38D8962A2FAD2200077061 /* calcaltorTests */ = {
+			isa = PBXGroup;
+			children = (
+				9C38D8972A2FAD2200077061 /* calcaltorTests.swift */,
+			);
+			path = calcaltorTests;
+			sourceTree = "<group>";
+		};
+		9C38D8A02A2FAD2200077061 /* calcaltorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9C38D8A12A2FAD2200077061 /* calcaltorUITests.swift */,
+				9C38D8A32A2FAD2200077061 /* calcaltorUITestsLaunchTests.swift */,
+			);
+			path = calcaltorUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9C38D8812A2FAD1E00077061 /* calcaltor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C38D8A72A2FAD2200077061 /* Build configuration list for PBXNativeTarget "calcaltor" */;
+			buildPhases = (
+				9C38D87E2A2FAD1E00077061 /* Sources */,
+				9C38D87F2A2FAD1E00077061 /* Frameworks */,
+				9C38D8802A2FAD1E00077061 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = calcaltor;
+			productName = calcaltor;
+			productReference = 9C38D8822A2FAD1E00077061 /* calcaltor.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9C38D8922A2FAD2200077061 /* calcaltorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C38D8AA2A2FAD2200077061 /* Build configuration list for PBXNativeTarget "calcaltorTests" */;
+			buildPhases = (
+				9C38D88F2A2FAD2200077061 /* Sources */,
+				9C38D8902A2FAD2200077061 /* Frameworks */,
+				9C38D8912A2FAD2200077061 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9C38D8952A2FAD2200077061 /* PBXTargetDependency */,
+			);
+			name = calcaltorTests;
+			productName = calcaltorTests;
+			productReference = 9C38D8932A2FAD2200077061 /* calcaltorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9C38D89C2A2FAD2200077061 /* calcaltorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C38D8AD2A2FAD2200077061 /* Build configuration list for PBXNativeTarget "calcaltorUITests" */;
+			buildPhases = (
+				9C38D8992A2FAD2200077061 /* Sources */,
+				9C38D89A2A2FAD2200077061 /* Frameworks */,
+				9C38D89B2A2FAD2200077061 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9C38D89F2A2FAD2200077061 /* PBXTargetDependency */,
+			);
+			name = calcaltorUITests;
+			productName = calcaltorUITests;
+			productReference = 9C38D89D2A2FAD2200077061 /* calcaltorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9C38D87A2A2FAD1D00077061 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					9C38D8812A2FAD1E00077061 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					9C38D8922A2FAD2200077061 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 9C38D8812A2FAD1E00077061;
+					};
+					9C38D89C2A2FAD2200077061 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 9C38D8812A2FAD1E00077061;
+					};
+				};
+			};
+			buildConfigurationList = 9C38D87D2A2FAD1D00077061 /* Build configuration list for PBXProject "calcaltor" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9C38D8792A2FAD1D00077061;
+			productRefGroup = 9C38D8832A2FAD1E00077061 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9C38D8812A2FAD1E00077061 /* calcaltor */,
+				9C38D8922A2FAD2200077061 /* calcaltorTests */,
+				9C38D89C2A2FAD2200077061 /* calcaltorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9C38D8802A2FAD1E00077061 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C38D88E2A2FAD2100077061 /* Preview Assets.xcassets in Resources */,
+				9C38D88A2A2FAD2100077061 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C38D8912A2FAD2200077061 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C38D89B2A2FAD2200077061 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9C38D87E2A2FAD1E00077061 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C38D8882A2FAD1E00077061 /* ContentView.swift in Sources */,
+				9C38D8862A2FAD1E00077061 /* calcaltorApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C38D88F2A2FAD2200077061 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C38D8982A2FAD2200077061 /* calcaltorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C38D8992A2FAD2200077061 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C38D8A42A2FAD2200077061 /* calcaltorUITestsLaunchTests.swift in Sources */,
+				9C38D8A22A2FAD2200077061 /* calcaltorUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9C38D8952A2FAD2200077061 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9C38D8812A2FAD1E00077061 /* calcaltor */;
+			targetProxy = 9C38D8942A2FAD2200077061 /* PBXContainerItemProxy */;
+		};
+		9C38D89F2A2FAD2200077061 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9C38D8812A2FAD1E00077061 /* calcaltor */;
+			targetProxy = 9C38D89E2A2FAD2200077061 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		9C38D8A52A2FAD2200077061 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9C38D8A62A2FAD2200077061 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		9C38D8A82A2FAD2200077061 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = calcaltor/calcaltor.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"calcaltor/Preview Content\"";
+				DEVELOPMENT_TEAM = 86PQXFRASY;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 12.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = org.certios.calcaltor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9C38D8A92A2FAD2200077061 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = calcaltor/calcaltor.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"calcaltor/Preview Content\"";
+				DEVELOPMENT_TEAM = 86PQXFRASY;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 12.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = org.certios.calcaltor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9C38D8AB2A2FAD2200077061 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 86PQXFRASY;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 12.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = org.certios.calcaltorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/calcaltor.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/calcaltor";
+			};
+			name = Debug;
+		};
+		9C38D8AC2A2FAD2200077061 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 86PQXFRASY;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 12.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = org.certios.calcaltorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/calcaltor.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/calcaltor";
+			};
+			name = Release;
+		};
+		9C38D8AE2A2FAD2200077061 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 86PQXFRASY;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 12.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = org.certios.calcaltorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = calcaltor;
+			};
+			name = Debug;
+		};
+		9C38D8AF2A2FAD2200077061 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 86PQXFRASY;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 12.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = org.certios.calcaltorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = calcaltor;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9C38D87D2A2FAD1D00077061 /* Build configuration list for PBXProject "calcaltor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C38D8A52A2FAD2200077061 /* Debug */,
+				9C38D8A62A2FAD2200077061 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9C38D8A72A2FAD2200077061 /* Build configuration list for PBXNativeTarget "calcaltor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C38D8A82A2FAD2200077061 /* Debug */,
+				9C38D8A92A2FAD2200077061 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9C38D8AA2A2FAD2200077061 /* Build configuration list for PBXNativeTarget "calcaltorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C38D8AB2A2FAD2200077061 /* Debug */,
+				9C38D8AC2A2FAD2200077061 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9C38D8AD2A2FAD2200077061 /* Build configuration list for PBXNativeTarget "calcaltorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C38D8AE2A2FAD2200077061 /* Debug */,
+				9C38D8AF2A2FAD2200077061 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9C38D87A2A2FAD1D00077061 /* Project object */;
+}
