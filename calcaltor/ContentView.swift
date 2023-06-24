@@ -16,8 +16,10 @@ struct ContentView: View {
             
             Button {
                 counter += 1
+                print("Hello")
             } label: {
                 Text("Click Here")
+               
             }
             .buttonBorderShape(.roundedRectangle(radius: 20))
             .background(.yellow)
